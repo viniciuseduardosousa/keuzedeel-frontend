@@ -1,8 +1,5 @@
 import Hero from '../components/Hero';
 import Divider from '../components/decorative/Divider';
-import HighlightedStories from '../components/sections/HighlightedStories';
-import Categories from '../components/sections/Categories';
-import FeaturedStory from '../components/sections/FeaturedStory';
 import TextBlock from '../components/TextBlock';
 
 const Home = () => {

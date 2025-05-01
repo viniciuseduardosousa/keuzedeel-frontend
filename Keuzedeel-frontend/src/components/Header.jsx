@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import CategoryDropdown from './navigation/CategoryDropdown';
+
 import MobileMenu from './navigation/MobileMenu';
 import amsterdamLogo from '../assets/images/amsterdamLogo.webp';
 

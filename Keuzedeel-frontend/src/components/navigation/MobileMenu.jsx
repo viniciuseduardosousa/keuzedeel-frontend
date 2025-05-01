@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import ArrowIcon from '../icons/ArrowIcon';
 
 const MobileMenu = ({ isOpen, onClose }) => {
   const [isGenreOpen, setIsGenreOpen] = useState(false);

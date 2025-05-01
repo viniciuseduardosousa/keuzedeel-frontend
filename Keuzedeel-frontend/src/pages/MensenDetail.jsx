@@ -1,10 +1,8 @@
-import Mensen from "./Mensen";
 import { useParams } from 'react-router-dom';
 
 const MensenDetail = () => {
   const { id } = useParams();
-
-    return (
+  return (
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold mb-6">Verhalen</h1>
       </div>

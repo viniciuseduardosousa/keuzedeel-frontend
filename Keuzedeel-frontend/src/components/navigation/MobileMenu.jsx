@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import amsterdamLogo from '../../assets/images/amsterdamlogo.webp';
 
 const MobileMenu = ({ isOpen, onClose }) => {
   const [isGenreOpen, setIsGenreOpen] = useState(false);
@@ -25,7 +26,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
         {/* Header with Logo and Close */}
         <div className="flex justify-between items-center mb-12">
           <Link to="/" className="text-2xl font-bold text-gray-800">
-            <img src="/src/assets/images/amsterdamLogo.webp" alt="" className='w-4'/>
+            <img src={amsterdamLogo} alt="" className='w-4'/>
              </Link>
 
           <button

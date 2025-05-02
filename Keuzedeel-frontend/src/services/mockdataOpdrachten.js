@@ -7,7 +7,7 @@ const mockOpdrachtData = [
     {
         name: "Accommodaties EK Atletiek 2016",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/accommodaties-ek/",
-        image: "src/assets/images/Projecten/accomodaties_ek_atletiek.webp"
+        image: "../assets/images/Projecten/accomodaties_ek_atletiek.webp"
     },
     {
         name: "Amstelkwartier",

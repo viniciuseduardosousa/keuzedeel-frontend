@@ -1,8 +1,8 @@
 {
-  "name": "examen-verhaal-frontend",
-  "private": true,
+  "name": "keuzedeel-frontend",
+  "private": false,
   "version": "0.0.0",
-  "homepage": "https://viniciuseduardosousa.github.io/keuzedeel-frontend",
+  "homepage": "https://viniciuseduardosousa.github.io/keuzedeel-frontend/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -5,9 +5,9 @@ const MensenCard = ({ image, name, link }) => {
                 src={image} 
                 alt={name} 
                 href={link}
-                className="w-40 h-30 rounded-md object-cover mb-4" 
+                className="w-full h-30 rounded-md object-cover" 
             />
-            <h3 className="text-lg font-semibold hover:underline "><a href={link}>{name}</a></h3>
+            <h3 className="text-xl mt-1 font-semibold hover:underline "><a href={link}>{name}</a></h3>
         </div>
     );
 };

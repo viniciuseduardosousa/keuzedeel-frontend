@@ -5,9 +5,9 @@ const ProjectenCard = ({ image, name, link }) => {
                 src={image} 
                 alt={name} 
                 href={link}
-                className="w-40 h-30 rounded-sm object-cover " 
+                className="w-65 h-40 md:w-65 md:h-40 rounded-md object-cover " 
             />
-            <h3 className="text-lg font-semibold hover:underline "><a href={link}>{name} →</a></h3>
+            <h3 className="mb:text-lg pt-2 pb-4 font-semibold hover:underline "><a href={link}>{name} →</a></h3>
         </div>
     );
 };

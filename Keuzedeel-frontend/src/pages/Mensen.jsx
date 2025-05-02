@@ -32,7 +32,7 @@ const Mensen = () => {
       <div>
         <h2 className="mt-5 text-xl md:text-3xl font-bold">Meer informatie?</h2>
         <p className="md:text-md text-gray-600 max-w-2xl mt-3">Voor meer informatie over het inhuren van onze projectmanagers, bouwmanagers, planningsadviseurs of topadviseurs van 
-        de Wibautgroep kunt u contact opnemen met onze afdeling <Link className="underline hover:text-blue-800" href="mailto:mg_markt_en_capaciteit.pmb@amsterdam.nl">Markt en Capaciteit.</Link></p>
+        de Wibautgroep kunt u contact opnemen met onze afdeling <Link className="underline text-black-800 hover:text-blue-800" href="mailto:mg_markt_en_capaciteit.pmb@amsterdam.nl">Markt en Capaciteit.</Link></p>
       </div>
     </div>
   );

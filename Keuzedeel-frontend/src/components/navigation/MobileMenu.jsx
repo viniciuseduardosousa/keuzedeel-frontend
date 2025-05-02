@@ -48,18 +48,6 @@ const MobileMenu = ({ isOpen, onClose }) => {
           </button>
         </div>
 
-        {/* Contact Link */}
-        <div className="flex-2 flex flex-col space-y-8 mb-12">
-        <Link 
-            to="/Contact" 
-            className="text-2xl py-4 border-b-2 border-gray-800 hover:pl-4 
-                     transition-all duration-300 hover:text-gray-600"
-            onClick={onClose}
-          >
-            Contact
-          </Link>
-        </div>
-
         {/* Navigation Links */}
         <nav className="flex-1 flex flex-col space-y-6">
           <Link 
@@ -88,6 +76,17 @@ const MobileMenu = ({ isOpen, onClose }) => {
           </Link>
           
         </nav>
+        {/* Contact Link */}
+        <div className="flex-1 flex flex-col space-y-2 ">
+        <Link 
+            to="/Contact" 
+            className="text-2xl py-4 border-b-2 border-gray-800 hover:pl-4 
+                     transition-all duration-300 hover:text-gray-600"
+            onClick={onClose}
+          >
+            Contact
+          </Link>
+        </div>
       </div>
     </div>
   );

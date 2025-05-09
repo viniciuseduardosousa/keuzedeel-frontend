@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
     <div className="absolute inset-0">
-      <img src={heroImage} alt="Background Image" className="object-cover object-center w-full h-full" />
+      <img src={heroImage} loading="lazy" alt="Background Image" className="object-cover object-center w-full h-full" />
       <div className="absolute inset-0 bg-black opacity-60"></div>
     </div>
     

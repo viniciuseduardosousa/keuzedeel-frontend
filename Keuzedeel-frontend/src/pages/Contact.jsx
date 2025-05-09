@@ -1,8 +1,14 @@
 import Maps from '../components/Map';
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
     return (
         <section className="container mx-auto px-4 py-28">
+          <Helmet>
+            <title>Contact – PMB</title>
+            <meta name="description" content="Get in touch with PMB via email or social media. Reach out for collaboration, questions, or feedback." />
+            <link rel="canonical" href="https://viniciuseduardosousa.github.io/keuzedeel-frontend/#/contact" />
+          </Helmet>
         <h1 className="text-3xl font-bold mb-6 text-left">Contact</h1>
         <div className="grid md:grid-cols-2 gap-12">
 

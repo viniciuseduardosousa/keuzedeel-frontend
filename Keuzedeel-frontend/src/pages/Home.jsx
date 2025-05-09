@@ -7,8 +7,14 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-[#FFFFFF] ">
       <Helmet>
-        <title>Home | PMB</title>
-        <meta name="description" content="Dit is de home pagina van het Projectmanagementbureau Amsterdam" />
+        <title>Keuzedeel Frontend Project – Vinicius Eduardo Sousa</title>
+        <meta
+          name="description"
+          content="Explore the Keuzedeel Frontend project by Vinicius Eduardo Sousa. Built with React, this educational showcase demonstrates frontend development skills, responsive design, and modern web practices."
+        />
+        <meta name="keywords" content="Frontend, React, Portfolio, Vinicius Eduardo Sousa, Web Development, Keuzedeel" />
+        <meta name="author" content="Vinicius Eduardo Sousa" />
+        <link rel="canonical" href="https://viniciuseduardosousa.github.io/keuzedeel-frontend/" />
       </Helmet>
       <Hero />
       <Divider />

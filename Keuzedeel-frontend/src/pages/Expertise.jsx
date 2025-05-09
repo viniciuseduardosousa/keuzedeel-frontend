@@ -5,6 +5,11 @@ const Expertise = () => {
 
   return (
     <div className="container mx-auto px-4 py-24 ">
+      <Helmet>
+            <title>Expertise – PMB</title>
+            <meta name="description" content="De expertise lijst van het ProjectmanagementBureau van het Gemeente Amsterdam" />
+            <link rel="canonical" href="https://viniciuseduardosousa.github.io/keuzedeel-frontend/#/expertise" />
+      </Helmet>
       {/* Header sectie met foto en titel */}
       <div className="flex flex-col md:flex-row items-center gap-12 mb-8 animate-fadeIn">
         {/* Tekst sectie */}

@@ -4,6 +4,7 @@ const ProjectenCard = ({ image, name, link }) => {
             <img 
                 src={image} 
                 alt={name} 
+                loading="lazy"
                 href={link}
                 className="w-65 h-40 md:w-65 md:h-40 rounded-md object-cover " 
             />

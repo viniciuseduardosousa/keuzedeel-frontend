@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 const Mensen = () => {
   return (
     <div className="container mx-auto px-4 py-24">
+      <Helmet>
+        <title>Mensen – PMB</title>
+        <meta name="description" content="De mensen van het ProjectmanagementBureau van het Gemeente Amsterdam" />
+        <link rel="canonical" href="https://viniciuseduardosousa.github.io/keuzedeel-frontend/#/mensen" />
+      </Helmet>
       {/* Header sectie met foto en titel */}
       <div className="flex flex-col md:flex-row items-center gap-12 mb-16 animate-fadeIn">
         {/* Tekst sectie */}

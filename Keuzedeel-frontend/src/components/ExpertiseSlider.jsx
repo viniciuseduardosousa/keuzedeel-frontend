@@ -12,6 +12,7 @@ const ExpertiseSlider = () => {
         <img
           src={slide1}
           alt="image 1"
+          loading='lazy'
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 grid h-full w-full place-items-center sm:place-items-center md:place-items-center  bg-black/75">

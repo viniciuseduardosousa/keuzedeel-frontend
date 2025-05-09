@@ -4,6 +4,11 @@ import ProjectenCard from "../components/cards/ProjectenCard";
 const Opdrachten = () => {
   return (
     <div className="container mx-auto px-4 py-24 ">
+      <Helmet>
+        <title>Opdrachten – PMB</title>
+        <meta name="description" content="De Opdrachten en projecten lijst van het ProjectmanagementBureau van het Gemeente Amsterdam" />
+        <link rel="canonical" href="https://viniciuseduardosousa.github.io/keuzedeel-frontend/#/opdrachten" />
+      </Helmet>
       {/* Header sectie met foto en titel */}
       <div className="flex flex-col md:flex-row items-center gap-12 mb-16 animate-fadeIn">
         {/* Tekst sectie */}

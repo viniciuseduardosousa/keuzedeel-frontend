@@ -3,6 +3,7 @@ const MensenCard = ({ image, name, link }) => {
         <div className="mensen-card flex flex-col items-center text-center cursor-pointer transition-transform transform hover:scale-105 p-4">
             <img 
                 src={image} 
+                loading="lazy"
                 alt={name} 
                 href={link}
                 className="w-full h-30 rounded-md object-cover" 

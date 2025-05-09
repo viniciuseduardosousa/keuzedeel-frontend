@@ -11,42 +11,42 @@ const mockMensenData = [
     {
         name: "Anneke de Zwart",
         link: "https://www.amsterdam.nl/pmb/mensen/anneke-zwart/",
-        image: {Anneke}
+        image: Anneke
     },
     {
         name: "Caroline Huszti",
         link: "https://www.amsterdam.nl/pmb/mensen/caroline-huszti/",
-        image: {Caroline1}
+        image: Caroline1
     },
     {
         name: "Caroline van Rhijn",
         link: "https://www.amsterdam.nl/pmb/mensen/caroline-van-rhijn/",
-        image: {Caroline2}
+        image: Caroline2
     },
     {
         name: "David Brandwagt",
         link: "https://www.amsterdam.nl/pmb/mensen/david-brandwagt/",
-        image: {David}
+        image: David
     },
     {
         name: "Hester Ombre",
         link: "https://www.amsterdam.nl/pmb/mensen/hester-ombre/",
-        image: {Hester}
+        image: Hester
     },
     {
         name: "Jurjen Mellema",
         link: "https://www.amsterdam.nl/pmb/mensen/jurjen-mellema/",
-        image: {Jurjen}
+        image: Jurjen
     },
     {
         name: "Marianne Volkers",
         link: "https://www.amsterdam.nl/pmb/mensen/marianne-volkers/",
-        image: {Marianne}
+        image: Marianne
     },
     {
         name: "Sjaak Huijsman",
         link: "https://www.amsterdam.nl/pmb/mensen/sjaak-huijsman/",
-        image: {Sjaak}
+        image: Sjaak
     }
 ];
 

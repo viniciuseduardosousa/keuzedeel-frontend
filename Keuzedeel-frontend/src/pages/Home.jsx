@@ -1,10 +1,15 @@
 import Hero from '../components/Hero';
 import Divider from '../components/decorative/Divider';
 import TextBlock from '../components/TextBlock';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   return (
     <div className="min-h-screen bg-[#FFFFFF] ">
+      <Helmet>
+        <title>Home | PMB</title>
+        <meta name="description" content="Dit is de home pagina van het Projectmanagementbureau Amsterdam" />
+      </Helmet>
       <Hero />
       <Divider />
       <TextBlock

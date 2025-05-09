@@ -26,10 +26,15 @@ const MobileMenu = ({ isOpen, onClose }) => {
         {/* Header with Logo and Close */}
         <div className="flex justify-between items-center mb-12">
           <Link to="/" className="text-2xl font-bold text-gray-800">
-            <img src={amsterdamLogo} alt="" className='w-4'/>
+            <img src={amsterdamLogo} alt="amsterdam-logo leading to home page" className='w-4'/>
              </Link>
 
-          <button
+          <button 
+            id="hamburger-menu-open-or-close"
+            type="button"
+            aria-label="Close menu"
+            aria-expanded={isOpen}
+            aria-controls="mobile-menu"
             onClick={onClose}
             className="text-gray-800 hover:rotate-90 transition-all duration-300"
           >

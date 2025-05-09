@@ -1,88 +1,106 @@
+import AanpakJeugdwerkloosheid from "../assets/images/Projecten/Aanpak-jeugdwerkloosheid.webp";
+import AccommodatiesEKAtletiek2016 from "../assets/images/Projecten/accomodaties_ek_atletiek.webp";
+import Amstelkwartier from "../assets/images/Projecten/amstelkwartier.webp";
+import AmsterdamseImpulsSchoolpleinen from "../assets/images/Projecten/Amsterdamse-Impuls-Schoolpleinen.webp";
+import BureauBroedplaatsen from "../assets/images/Projecten/broedplaatsen.webp";
+import CoördinatieteamAsielzoekersLolaLik from "../assets/images/Projecten/Coördinatieteam-asielzoekers-Lola-Lik.webp";
+import AccommodatiesEKAtletiek2016_2 from "../assets/images/Projecten/Europees-Voorzitterschap-2016.webp";
+import GezondeSchoolgebouwenAmsterdam from "../assets/images/Projecten/Gezonde-Schoolgebouwen-Amsterdam.webp";
+import HerinrichtingLeidseplein from "../assets/images/Projecten/Herinrichting-Leidseplein.webp";
+import Lelylaan from "../assets/images/Projecten/lelylaan.webp";
+import NazorgNaIncidenten from "../assets/images/Projecten/nazorg_na_incidenten.webp";
+import Sluisbuurt from "../assets/images/Projecten/sluisbuurt.webp";
+import SprongOverHetIJ from "../assets/images/Projecten/Sprong-over-het-IJ.webp";
+import VernieuwingErfpachtstelsel from "../assets/images/Projecten/vernieuwing_erfpachtstelsel.webp";
+import WestpoortEnSloterdijk from "../assets/images/Projecten/westpoort_en_sloterdijken.webp";
+import Zelfbouw from "../assets/images/Projecten/zelfbouw.webp";
+import ZuidasZuidasDok from "../assets/images/Projecten/zuidas.webp";
+
 const mockOpdrachtData = [
     {
         name: "Aanpak jeugdwerkloosheid",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/aanpak/",
-        image: "src/assets/images/Projecten/Aanpak-jeugdwerkloosheid.webp"
+        image: AanpakJeugdwerkloosheid
     },
     {
         name: "Accommodaties EK Atletiek 2016",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/accommodaties-ek/",
-        image: "../assets/images/Projecten/accomodaties_ek_atletiek.webp"
+        image: AccommodatiesEKAtletiek2016
     },
     {
         name: "Amstelkwartier",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/amstelkwartier/",
-        image: "src/assets/images/Projecten/amstelkwartier.webp"
+        image: Amstelkwartier
     },
     {
         name: "Amsterdamse Impuls Schoolpleinen",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/amsterdamse-impuls/",
-        image: "src/assets/images/Projecten/Amsterdamse-Impuls-Schoolpleinen.webp"
+        image: AmsterdamseImpulsSchoolpleinen
     },
     {
         name: "Bureau Broedplaatsen",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/broedplaatsen/",
-        image: "src/assets/images/Projecten/broedplaatsen.webp"
+        image: BureauBroedplaatsen
     },
     {
         name: "Coördinatieteam asielzoekers / Lola Lik",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/coordinatieteam/",
-        image: "src/assets/images/Projecten/Coördinatieteam-asielzoekers-Lola-Lik.webp"
+        image: CoördinatieteamAsielzoekersLolaLik
     },
     {
         name: "Accommodaties EK Atletiek 2016",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/accommodaties-ek/",
-        image: "src/assets/images/Projecten/Europees-Voorzitterschap-2016.webp"
+        image: AccommodatiesEKAtletiek2016_2
     },
     {
         name: "Gezonde Schoolgebouwen Amsterdam",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/gezonde-scholen/",
-        image: "src/assets/images/Projecten/Gezonde-Schoolgebouwen-Amsterdam.webp"
+        image: GezondeSchoolgebouwenAmsterdam
     },
     {
         name: "Herinrichting Leidseplein",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/herinrichting/",
-        image: "src/assets/images/Projecten/Herinrichting-Leidseplein.webp"
+        image: HerinrichtingLeidseplein
     },
     {
         name: "Lelylaan",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/lelylaan/",
-        image: "src/assets/images/Projecten/lelylaan.webp"
+        image: Lelylaan
     },
     {
         name: "Nazorg na incidenten",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/nazorg-incidenten/",
-        image: "src/assets/images/Projecten/nazorg_na_incidenten.webp"
+        image: NazorgNaIncidenten
     },
     {
         name: "Sluisbuurt",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/sluisbuurt/",
-        image: "src/assets/images/Projecten/sluisbuurt.webp"
+        image: Sluisbuurt
     },
     {
         name: "Sprong over het IJ",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/sprong-ij/",
-        image: "src/assets/images/Projecten/Sprong-over-het-IJ.webp"
+        image: SprongOverHetIJ
     },
     {
         name: "Vernieuwing Erfpachtstelsel",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/vernieuwing/",
-        image: "src/assets/images/Projecten/vernieuwing_erfpachtstelsel.webp"
+        image: VernieuwingErfpachtstelsel
     },
     {
         name: "Westpoort en sloterdijk",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/westpoort/",
-        image: "src/assets/images/Projecten/westpoort_en_sloterdijken.webp"
+        image: WestpoortEnSloterdijk
     },
     {
         name: "Zelfbouw",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/zelfbouw/",
-        image: "src/assets/images/Projecten/zelfbouw.webp"
+        image: Zelfbouw
     },
     {
         name: "Zuidas/ZuidasDok",
         link: "https://www.amsterdam.nl/pmb/opdrachten-projecten/zuidas-zuidasdok/",
-        image: "src/assets/images/Projecten/zuidas.webp"
+        image: ZuidasZuidasDok
     }
 ];
 

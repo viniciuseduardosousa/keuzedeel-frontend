@@ -1,10 +1,8 @@
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import amsterdamLogo from '../../assets/images/amsterdamlogo.webp';
 
 const MobileMenu = ({ isOpen, onClose }) => {
-  const [isGenreOpen, setIsGenreOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     if (isOpen) {
@@ -25,7 +23,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
       <div className="flex flex-col h-full p-8">
         {/* Header with Logo and Close */}
         <div className="flex justify-between items-center mb-12">
-          <Link aria-label="Link to home page" to="/" id='home button' className="text-2xl font-bold text-gray-800">
+          <Link aria-label="Link to home page" to="/" onClick={onClose} id='home button' className="text-2xl font-bold text-gray-800">
             <img src={amsterdamLogo} alt="amsterdam-logo leading to home page" className='w-4'/>
              </Link>
 

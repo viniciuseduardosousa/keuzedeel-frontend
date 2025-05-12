@@ -31,7 +31,7 @@ const ExpertiseAccordion = () => {
         <AccordionHeader
           onClick={() => handleOpen(2)}
           className={`border-b-0 transition-colors ${
-            open === 2 ? "text-red-500 hover:!text-red-700" : ""
+            open === 2 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
           Projectmanagement
@@ -45,7 +45,7 @@ const ExpertiseAccordion = () => {
         <AccordionHeader
           onClick={() => handleOpen(3)}
           className={`border-b-0 transition-colors ${
-            open === 3 ? "text-red-500 hover:!text-red-700" : ""
+            open === 3 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
           Programmamanagement
@@ -58,7 +58,7 @@ const ExpertiseAccordion = () => {
         <AccordionHeader
           onClick={() => handleOpen(4)}
           className={`border-b-0 transition-colors ${
-            open === 4 ? "text-red-500 hover:!text-red-700" : ""
+            open === 4 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
           Procesmanagement
@@ -73,7 +73,7 @@ const ExpertiseAccordion = () => {
         <AccordionHeader
           onClick={() => handleOpen(5)}
           className={`border-b-0 transition-colors ${
-            open === 5 ? "text-red-500 hover:!text-red-700" : ""
+            open === 5 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
           Bouwmanagement
@@ -87,7 +87,7 @@ const ExpertiseAccordion = () => {
         <AccordionHeader
           onClick={() => handleOpen(6)}
           className={`border-b-0 transition-colors ${
-            open === 6 ? "text-red-500 hover:!text-red-700" : ""
+            open === 6 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
           Maatschappelijk vastgoed
@@ -101,7 +101,7 @@ const ExpertiseAccordion = () => {
         <AccordionHeader
           onClick={() => handleOpen(7)}
           className={`border-b-0 transition-colors ${
-            open === 7 ? "text-red-500 hover:!text-red-700" : ""
+            open === 7 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
           Planning en structurering
@@ -115,7 +115,7 @@ const ExpertiseAccordion = () => {
         <AccordionHeader
           onClick={() => handleOpen(8)}
           className={`border-b-0 transition-colors ${
-            open === 8 ? "text-red-500 hover:!text-red-700" : ""
+            open === 8 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
           Meer informatie over inhuur

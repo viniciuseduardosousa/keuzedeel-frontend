@@ -25,7 +25,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
       <div className="flex flex-col h-full p-8">
         {/* Header with Logo and Close */}
         <div className="flex justify-between items-center mb-12">
-          <Link to="/" id='home button' className="text-2xl font-bold text-gray-800">
+          <Link aria-label="Link to home page" to="/" id='home button' className="text-2xl font-bold text-gray-800">
             <img src={amsterdamLogo} alt="amsterdam-logo leading to home page" className='w-4'/>
              </Link>
 

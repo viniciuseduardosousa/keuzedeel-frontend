@@ -19,7 +19,7 @@ const Header = () => {
           {/* Left side: Logo + Navigation */}
           <div className="flex items-center gap-12">
             {/* Logo */}
-            <Link to="/" className="text-2xl font-bold text-gray-800">
+            <Link aria-label="Link to Home Page" to="/" className="text-2xl font-bold text-gray-800">
             <img src={amsterdamLogo} alt="" className='w-3' />
             </Link>
 

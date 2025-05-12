@@ -15,7 +15,7 @@ const Footer = () => {
             <p className="text-gray-700">
               PMB is bereikbaar op werkdagen tussen 8.30 - 17.30 uur. 
               <br />
-              <Link to="http://www.linkedin.com/company/projectmanagement-bureau" ><FaLinkedin className='w-7 h-7 mt-2 mb-2' /></Link>
+              <Link aria-label="Link to LinkedIn" to="http://www.linkedin.com/company/projectmanagement-bureau" ><FaLinkedin className='w-7 h-7 mt-2 mb-2' /></Link>
             </p>
             <Link to="/contact" className="text-gray-700 hover:text-gray-900 py-2">Contact →</Link>
             {/* Verticale divider rechts */}

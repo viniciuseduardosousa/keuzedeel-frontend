@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 relative">
           {/* Logo/Brand section */}
           <div className="relative">
-            <h3 className="text-xl font-medium mb-4">Mail</h3>
+            <p className="text-xl font-medium mb-4">Mail</p>
             <p className="text-gray-700">
               PMB is bereikbaar op werkdagen tussen 8.30 - 17.30 uur. 
               <br />
@@ -24,7 +24,7 @@ const Footer = () => {
 
           {/* Pagina's section */}
           <div className="relative">
-            <h3 className="text-xl font-medium mb-4">Over deze site</h3>
+            <p className="text-xl font-medium mb-4">Over deze site</p>
             <ul className="space-y-2">
               <li>
                 <Link to="https://www.amsterdam.nl/pmb/algemene-onderdelen/colofon/" className="text-gray-700 hover:text-gray-900">Colofon →</Link>
@@ -42,7 +42,7 @@ const Footer = () => {
 
           {/* Contact section */}
           <div className="relative">
-            <h3 className="text-xl font-medium mb-4">Amsterdam.nl</h3>
+            <p className="text-xl font-medium mb-4">Amsterdam.nl</p>
             <ul className="space-y-2">
               <li>
                 <p>Nieuws en publieksinformatie van de gemeente Amsterdam 

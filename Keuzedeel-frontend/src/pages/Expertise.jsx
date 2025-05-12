@@ -1,5 +1,6 @@
 import ExpertiseSlider from "../components/ExpertiseSlider";
 import ExpertiseAccordion from "../components/ExpertiseAccordion";
+import { Helmet } from 'react-helmet';
 
 const Expertise = () => {
 

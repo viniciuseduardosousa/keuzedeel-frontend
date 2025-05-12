@@ -5,7 +5,6 @@ import MobileMenu from './navigation/MobileMenu';
 import amsterdamLogo from '../assets/images/amsterdamLogo.webp';
 
 const Header = () => {
-  const [searchQuery, setSearchQuery] = useState('');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleSearch = (e) => {
@@ -62,7 +61,12 @@ const Header = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <button
+            <button name='hamburger-menu-open-or-close'
+              type="button"
+              aria-label="Open menu"
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
+              id="hamburger-menu-open-or-close"
               className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-all duration-300"
               onClick={() => setIsMobileMenuOpen(true)}
             >

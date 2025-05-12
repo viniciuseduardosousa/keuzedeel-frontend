@@ -1,6 +1,6 @@
 const TextBlock = ({ title, description, email}) => {
     return (
-      <div className="flex flex-col bg-white md:px-10 py-4">
+      <section className="flex flex-col bg-white md:px-10 py-4">
         <div className="px-8 md:px-16 text-black ">
             <h3 className="text-lg md:text-2xl font-bold mb-2">{title}</h3>
             <p className="text-sm md:text-base">{description}</p>
@@ -10,7 +10,7 @@ const TextBlock = ({ title, description, email}) => {
               </a>
             </p>
         </div>
-      </div>
+      </section>
     );
   };
   

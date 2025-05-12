@@ -12,7 +12,7 @@ const Expertise = () => {
             <link rel="canonical" href="https://viniciuseduardosousa.github.io/keuzedeel-frontend/#/expertise" />
       </Helmet>
       {/* Header sectie met foto en titel */}
-      <div className="flex flex-col md:flex-row items-center gap-12 mb-8 animate-fadeIn">
+      <div className="flex flex-col md:flex-row items-center gap-12 mb-8">
         {/* Tekst sectie */}
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-4xl font-bold mt-6 text-gray-800">Expertise</h1>
